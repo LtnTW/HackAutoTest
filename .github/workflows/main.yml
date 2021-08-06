@@ -60,5 +60,5 @@ jobs:
           pwd
           ls -al
           cd dirsearch
-          ls
+          python3.9 -m pip install -r requirements.txt
         shell: bash
