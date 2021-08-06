@@ -61,8 +61,5 @@ jobs:
           ls -al
           cd dirsearch
           python3.9 -m pip install -r requirements.txt
-        shell: bash
-
-      - name: dirsearch 
-        run: python3.9 /home/runner/work/HackAutoTest/HackAutoTest/dirsearch.py --url "http://dtcloud.cpu.edu.tw/"
+          python3.9 dirsearch.py -u "http://dtcloud.cpu.edu.tw/"
         shell: bash
