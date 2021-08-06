@@ -43,5 +43,6 @@ jobs:
           architecture: x64
           # Used to pull python distributions from actions/python-versions. Since there's a default, this is typically not supplied by the user.
           token: ${{ github.token }}
+      - names: Checks Python
         run: python --version
         shell: bash
