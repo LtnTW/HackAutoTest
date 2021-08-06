@@ -46,3 +46,7 @@ jobs:
       - names: Checks Python
         run: python --version
         shell: bash
+      
+      - names: Checks Kernel
+        run: uname -a
+        shell: bash
