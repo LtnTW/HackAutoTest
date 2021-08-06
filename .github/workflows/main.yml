@@ -64,4 +64,5 @@ jobs:
         shell: bash
 
       - name: dirsearch 
-      run: python3.9 /home/runner/work/HackAutoTest/HackAutoTest/dirsearch --url "http://dtcloud.cpu.edu.tw/"
+        run: python3.9 /home/runner/work/HackAutoTest/HackAutoTest/dirsearch --url "http://dtcloud.cpu.edu.tw/"
+        shell: bash
