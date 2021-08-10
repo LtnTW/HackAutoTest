@@ -61,5 +61,5 @@ jobs:
           ls -al
           cd dirsearch
           python3.9 -m pip install -r requirements.txt
-          python3.9 dirsearch.py -u "http://eetc.cpu.edu.tw/"
+          python3.9 dirsearch.py -u "https://staffairs.cpu.edu.tw/pb/pbprod"
         shell: bash
