@@ -61,5 +61,6 @@ jobs:
           ls -al
           cd dirsearch
           python3.9 -m pip install -r requirements.txt
-          python3.9 dirsearch.py -u "https://staffairs.cpu.edu.tw/pb/pbprod"
+          python3.9 dirsearch.py -u "https://staffairs.cpu.edu.tw/pb/pbprod" -o azhe.txt
+          cat azhe.txt
         shell: bash
