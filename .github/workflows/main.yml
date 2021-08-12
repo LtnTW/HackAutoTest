@@ -61,12 +61,12 @@ jobs:
           ls -al
           cd dirsearch
           python3.9 -m pip install -r requirements.txt
-          python3.9 dirsearch.py -u "http://gept.cpu.edu.tw/amc_gept/Login_CPU.aspx" -o azhe.txt
+          python3.9 dirsearch.py -u "http://grs.cpu.edu.tw/" -o bzhe.txt
         shell: bash
       - name: Show the dirsearch results
         run: | 
           pwd
           ls -al
           cd dirsearch
-          cat azhe.txt
+          cat bzhe.txt
         shell: bash
