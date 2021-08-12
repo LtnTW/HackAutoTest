@@ -61,12 +61,12 @@ jobs:
           ls -al
           cd dirsearch
           python3.9 -m pip install -r requirements.txt
-          python3.9 dirsearch.py -u "https://policememorial.cpu.edu.tw/" -o policmorial.txt
+          python3.9 dirsearch.py -u "https://pst.cpu.edu.tw/" -o pst.txt
         shell: bash
       - name: Show the dirsearch results
         run: | 
           pwd
           ls -al
           cd dirsearch
-          cat policmorial.txt
+          cat pst.txt
         shell: bash
