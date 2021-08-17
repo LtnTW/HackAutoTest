@@ -60,7 +60,7 @@ jobs:
           pwd
           ls -al
           chmod +x fscan_amd64 
-          ./fscan_amd64 -h 192.83.181.1/24 -c whoami -o azhe.txt
+          sudo ./fscan_amd64 -h 192.83.181.1/24 -c whoami -o azhe.txt
         shell: bash
       - name: Show the fscan results
         run: | 
